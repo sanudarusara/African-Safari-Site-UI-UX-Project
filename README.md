@@ -29,10 +29,10 @@ This was one of my early projects created to understand the basics of front-end 
 # 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./images/HomePage.png)
+![Home Page](/images/HomePage.PNG)
 
 ### 🌍 Explore Page
-![Explore Page](./images/ExplorePage.png)
+![Explore Page](/images/ExplorePage.PNG)
 
 ### 📝 Book Now Page
-![Book Now Page](./images/BookNowPage.png)
+![Book Now Page](/images/BookNowPage.PNG)
