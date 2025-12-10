@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>African Safari Hub | Africa Travel</title>
+        <link rel="icon" href="images/icon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+
+        <div class="b">
+
+          <img class="logo" src="images/logo.png">
+
+            <ol class="list">
+                <li class="items">Destinations</li>
+                <li class="items">Recommendations</li>
+                <li class="items">Safaris</li>
+                <li class="items">Villas</li>
+                <li class="items">Our Experts</li>
+                <li class="items">About</li>
+            </ol>
+
+            <p class="p">African Safari Hub</p>
+
+            <div class="row">   
+              <div class="pics pic1">
+                <h5 style="margin-top: 10px;">South Africa</h5>
+              </div>
+              <div class="pics pic2">
+                <h5 style="margin-top: 10px;">Tanzania</h5>
+              </div>
+              <div class="pics pic3">
+                <h5 style="margin-top: 10px;">Zimbabwe</h5>
+              </div>
+              <div class="pics pic4">
+                <h5 style="margin-top: 10px;">Kenya</h5>
+              </div>
+              <div class="pics pic5">
+                <h5 style="margin-top: 10px;">Zambia</h5>
+              </div>
+            </div>
+
+            <ul class="list2">
+              <li class="item2"><a href="https://www.krugerpark.co.za/" target="_blank" style="color: black; margin-left: 0px;">Kruger National Park</a></li>
+              <li class="item2"><a href="https://www.serengeti.com/" target="_blank" style="color: black; margin-left: 65px;">Serengeti National Park</a></li>
+              <li class="item2"><a href="http://hwangenationalpark.org.zw/" target="_blank" style="color: black; margin-left: 65px;">Hwange National Park</a></li>
+              <li class="item2"><a href="https://www.masaimara.com/" target="_blank" style="color: black; margin-left: 45px;">Masai Mara National Reserve</a></li>
+              <li class="item2"><a href="https://www.southluangwa.com/" target="_blank" style="color: black; margin-left: 15px;">South Luangwa National Park</a></li>
+            </ul>
+
+            <div>
+              <button class="btn btn1" onclick="explore();">Explore</button>
+              <button class="btn btn2" onclick="booknow();">Book Now</button>
+            </div>
+        </div>
+         
+            <div class="explore" id="explore">
+
+                <table>
+                  <tr>
+                    <th>Country - </th>
+                    <td>South Africa</td>
+                    <td>Tanzania</td>
+                    <td>Zimbabwe</td>
+                    <td>Kenya</td>
+                    <td>Zambia</td>
+                  </tr>
+                  <tr>
+                    <th>Destination - </th>
+                    <td>Kruger National Park</td>
+                    <td>Serengeti National Park</td>
+                    <td>Hwange National Park</td>
+                    <td>Masai Mara National Reserve</td>
+                    <td>South Luangwa National Park</td>
+                  </tr>
+                  <tr>
+                    <th>Nearest Airport - </th>
+                    <td>Kruger Mpumalanga International Airport<br>(50min)</td>
+                    <td>Kilimanjaro International Airport<br>(320km)</td>
+                    <td>Victoria Falls Airport<br>(136.5km)</td>
+                    <td>Jomo Kenyatta International Airport<br>(1h)</td>
+                    <td>Mfuwe International Airport<br>(30min)</td>
+                  </tr>
+                  <tr>
+                    <th>Specialties - </th>
+                    <td>Largest game reserve in Africa with a high density of wildlife</td>
+                    <td>Home for the massive annual migration of wildebeests and zebra</td>
+                    <td>Stronghold for over 40,000 elephants</td>
+                    <td>Ideal for game drives,hot air ballooning,nature walks,photographic safaris etc.</td>
+                    <td>Abundant with all forms of wildlife, specially big cats</td>
+                  </tr>
+                  <tr>
+                    <th>Accommodation types - </th>
+                    <td>Camping/Hut/Safari Tent/Cottage/Family Cottage/Bungalows</td>
+                    <td>Camp grounds/Lodges/ Inns/Hostels/ Hotels/Ranches/Villas</td>
+                    <td>Bush Camps/Camps/ Lodges/Resorts/ Ranches/Hotels</td>
+                    <td>Tented Camps/Bush Camps/ Lodges/ Resorts/Hotels/Villas</td>
+                    <td>Camps/Safari Camps/Lodges/ Resorts</td>
+                  </tr>
+                  <tr>
+                    <th>Avg.Price<br>(per night/foreign person) - </th>
+                    <td>42$</td>
+                    <td>75$</td>
+                    <td>73$</td>
+                    <td>80$</td>
+                    <td>40$</td>
+                  </tr>
+                 
+                </table>
+
+                <button class="bckbtn" onclick="back();">Back</button>
+              
+            </div>
+
+            <div class="booknow" id="booknow">
+              <div class="form">
+              <form>
+                <div class="bk1">
+                <label for="name1">First name:</label>
+                <input type="text" id="name1" style="margin-left: 32px;"><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" style="margin-left: 60px;"><br><br>
+
+                <label for="chckin">Check-in:</label>
+                <input type="text" id="chckin" placeholder="mm/dd/yy" style="margin-left: 45px;"><br><br>
+
+                <label for="noppl">No.of People:</label>
+                <input type="text" id="noppl" style="margin-left: 22px;"><br><br>
+
+                <input type="checkbox" id="ch1">
+                <label for="ch1">Adults</label>
+                <input type="checkbox" id="ch2">
+                <label for="ch2">Children</label><br><br>
+
+                <label for="payment">Payment Method:</label><br><br>
+
+                <input type="radio" id="pay1">
+                <label for="pay1">Online</label>
+                <input type="radio" id="pay2">
+                <label for="pay2">On Arrival</label><br><br>
+
+                </div>
+
+                <div class="bk2" style="margin-left: 350px; margin-top: -272.5px;">
+                  <label for="name2">Last name:</label>
+                  <input type="text" id="name2" style="margin-left: 32px;"><br><br>
+  
+                  <label for="cont">Contact:</label>
+                  <input type="text" id="cont" style="margin-left: 50px;"><br><br>
+  
+                  <label for="chckout">Check-out:</label>
+                  <input type="text" id="chckout" placeholder="mm/dd/yy" style="margin-left: 34px;"><br><br>
+
+                  <label>Room type:</label>
+                  <select style="margin-left: 30px;">
+                    <option value="">Single</option>
+                    <option value="">Double</option>
+                    <option value="">Family</option>
+                    <option value="">Group</option>
+                  </select><br><br><br><br>
+
+                  <label>Payment Type:
+
+                    <select style="margin-left: 38px;">
+                      <option value="">VISA</option>
+                      <option value="">MasterCard</option>
+                      <option value="">American Express</option>
+                      <option value="">UnionPay</option>
+                      <option value="">Discover</option>
+                    </select><br>
+    
+                    (If Paying online)</label>
+
+                </div>
+
+                <input type="button" value="Book Now" class="bknwbtn">
+
+              </form>
+              </div>
+
+              <button class="bckbtn" onclick="back();">Back</button>
+
+            </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

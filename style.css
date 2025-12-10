@@ -1,0 +1,267 @@
+.logo {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+.b {
+    background-image: url("images/bkrgnd.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+}
+
+.body {
+    margin: 0px;
+}
+
+.list{
+    list-style: none;
+    margin-left: 450px;
+    margin-top: 35px;
+}
+
+.items{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    display: inline;
+    padding: 6px 25px 6px;
+}
+
+.items:hover{
+    cursor: pointer;
+    background-color: rgba(114, 111, 111, 0.292);
+    border-radius: 10px;
+    transition: 0.75s;
+}
+
+.p{
+    color: rgb(255, 234, 4);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    margin-left: 450px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+.row{
+    margin-left: 70px;
+    margin-top: 80px;
+    
+}
+
+.list2{
+    list-style: none;
+    margin-top: -2px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.item2{
+    display: inline;
+    font-size: 15px;
+    padding: 30px;
+}
+
+h5 {
+    font-size: 27px;
+}
+
+.pics{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center; 
+    margin-left: 60px;
+    transition: transform 0.5s;
+}
+
+.pics:hover{
+    transform: scale(1.25,1.25);
+}
+
+.pic1{
+    background-image: url("images/lion.webp");
+    background-size: cover;
+}
+
+.pic2{
+    background-image: url("images/buffalo.jpg");
+    background-size: cover;
+}
+.pic3{
+    background-image: url("images/elephant.jpg");
+    background-size: cover;
+}
+.pic4{
+    background-image: url("images/rhino.png");
+    background-size: cover;
+}
+.pic5{
+    background-image: url("images/leopard.png");
+    background-size: cover;
+}
+
+
+.btn{
+        width: 200px;
+        height: 40px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-width: 3.5px;
+        border-radius: 10px;
+        margin: 100px;
+        position: absolute;
+}
+
+.btn1{
+    margin-left: 270px;
+    margin-top: 165px;
+}
+
+.btn2{
+    margin-left: 1100px;
+    margin-top: 155px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.explore{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url("images/backgrnd2.jpg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.booknow{
+    background-image: url("images/backgrnd2.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.form{
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    font-weight: bold;
+    width: 645px;
+    height: 345px;
+    padding: 60px;
+    border-radius: 25px;
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+.bknwbtn{
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 100px;
+    margin-left: 220px;
+    margin-top: 65px;
+}
+
+.bknwbtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bckbtn{
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 3.5px;
+    border-radius: 10px;
+    margin: 100px;
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 130px;
+}
+
+.bckbtn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+table{
+    background-color: white;
+    border: 2px solid rgb(246, 243, 243);
+    width: 1350px;
+    margin-top: -100px;
+    margin-left: 20px;
+    border-radius: 15px;
+    position: absolute;
+    opacity: 0.7;
+    padding: 15px;
+}
+
+td,th{
+   
+    text-align: center;
+    color: black;
+    padding: 20px 15px 0px 15px;
+}
+
+td{
+    font-size: 19px;
+}
+
+th{
+    font-size: 21.5px;
+}
+
+.b2{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    margin-top: 255px;
+}
