@@ -1,5 +1,7 @@
 # African Safari Hub – UI/UX Design (HTML, CSS & JavaScript)
 
+![Home Page](images/HomePage.PNG)
+
 This is a simple beginner-friendly web design project I created to practice and get familiar with **HTML**, **CSS**, and **JavaScript**.  
 The project focuses on building a clean UI/UX layout inspired by an African safari travel theme.
 
@@ -27,9 +29,6 @@ Everything works locally — no server setup needed.
 This was one of my early projects created to understand the basics of front-end development and improve my UI/UX design skills.
 
 # 📸 Screenshots
-
-### 🏠 Home Page
-![Home Page](images/HomePage.PNG)
 
 ### 🌍 Explore Page
 ![Explore Page](images/ExplorePage.PNG)
